@@ -1,0 +1,49 @@
+.hero{
+    max-width: 100%;
+    padding-top: 20px;
+    margin: 0 auto  ;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    &-wrapper{
+      
+        .card{
+            box-shadow: 2px 2px 5px orange;
+            width: 300px;
+            height: 320px;
+            padding: 15px 10px 15px 34px ;
+            background: #D9D9D9;
+        }
+        .card:active{
+            transform: scale(1.1);
+        }
+        
+        .card-img{
+            width:253px;
+            height: 150px;
+        }
+        &__bottom{
+            padding-top: 10px;
+        }
+    }
+}
+p{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+img{
+    width: 100%;
+}
+.fa-solid{
+    padding-left: 230px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.box{
+    height: 100px;
+}
+
+//  *****modal strarted******//
+

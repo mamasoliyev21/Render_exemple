@@ -1,0 +1,31 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button,
+input,
+textarea,
+select,
+option {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+body {
+  overflow-x: hidden;
+    font-family: "MuseoSansCyrl";
+
+}
+.container{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
